@@ -14,5 +14,4 @@ This project explores data from bike share systems in three major U.S. cities: C
 + bikeshare.py: Python script for performing the analysis
 
 ### Credits
-This project is based on data provided by Motivate, a bike share system provider for major cities in the United States. 
-Additionally, various blog posts and repositories were consulted for insights and code snippets during the development of this project.
+This project utilizes data provided by Motivate, a leading bike share system provider for major cities in the United States. The development of this project was also guided by insights and code snippets from several blog posts and repositories.
