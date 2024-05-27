@@ -5,10 +5,7 @@ May-27-2024
 Exploring Bike Share Data in Major U.S. Cities
 
 ### Description
-This project involves exploring data related to bike share systems in three major cities in the United States: Chicago, New York City, and Washington, DC. 
-The goal is to analyze the data to understand usage patterns and extract key statistics. The analysis includes determining popular times of travel, 
-identifying popular stations and trips, calculating trip durations, and examining user information. The project uses Python to import the data, 
-perform the analysis, and create an interactive terminal experience to present the findings.
+This project explores data from bike share systems in three major U.S. cities: Chicago, New York City, and Washington, DC. The objective is to analyze this data to uncover usage patterns and key statistics. The analysis focuses on identifying popular travel times, popular stations and trips, trip durations, and user demographics. Python is used to import the data, conduct the analysis, and create an interactive terminal-based interface to present the results.
 
 ### Files used
 + chicago.csv: Dataset for Chicago bike share system
