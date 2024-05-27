@@ -106,29 +106,36 @@ def time_stats(df):
     print('-'*40)
 
 def station_stats(df):
+    # Print a message indicating that the calculation of popular stations and trips is starting.
     print('\nCalculating The Most Popular Stations and Trip...\n')
+    
+    # Record the start time to measure the duration of the function execution.
     start_time = time.time()
 
-    # Check if necessary columns exist in the dataframe.
+    # Check if the necessary columns exist in the dataframe.
     if 'Start Station' in df.columns and 'End Station' in df.columns:
-        # Display most commonly used start station.
+        # Display the most commonly used start station.
         common_start_station = df['Start Station'].mode()[0]
         print('Most Common Start Station:', common_start_station)
 
-        # Display most commonly used end station.
+        # Display the most commonly used end station.
         common_end_station = df['End Station'].mode()[0]
         print('Most Common End Station:', common_end_station)
 
-        # Display most frequent combination of start station and end station trip.
+        # Create a new column 'Trip' that concatenates the start and end stations to represent a trip.
         df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
+        
+        # Display the most frequent combination of start station and end station trip.
         common_trip = df['Trip'].mode()[0]
         print('Most Common Trip:', common_trip)
     else:
+        # Print a message if the required station information is not available in the dataframe.
         print('Station information is not available for this dataset.')
 
+    # Print the duration of the function execution.
     print("\nThis took %s seconds." % (time.time() - start_time))
+    # Print a separator for readability in the output.
     print('-'*40)
-
 
 def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
