@@ -19,5 +19,3 @@ perform the analysis, and create an interactive terminal experience to present t
 ### Credits
 This project is based on data provided by Motivate, a bike share system provider for major cities in the United States. 
 Additionally, various blog posts and repositories were consulted for insights and code snippets during the development of this project.
-
-
