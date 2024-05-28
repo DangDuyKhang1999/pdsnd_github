@@ -62,3 +62,6 @@ __pycache__/
 
 # C extensions
 *.so
+
+# CSV files
+*.csv
