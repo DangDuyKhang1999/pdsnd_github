@@ -1,1 +1,64 @@
-.github/**
+# Django
+*.log
+*.pot
+
+# Custom directories/files
+custom-directory/
+custom-file
+
+# Sphinx documentation
+docs/_build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Development tools
+.mr.developer.cfg
+.project
+.pydevproject
+.ropeproject
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# macOS
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# Jupyter Notebook checkpoints
+**/*.ipynb_checkpoints/
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Translations
+*.mo
+
+# Visual Studio Code
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
